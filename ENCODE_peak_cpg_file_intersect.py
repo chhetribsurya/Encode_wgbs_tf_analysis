@@ -2,6 +2,8 @@ import pybedtools
 import os
 import re
 import glob
+import pandas as pd
+import numpy as np
 
 #Cpg_file reading via pandas_dataframe for adding the strands for standard pybed usage, and editing the coordinates:
 def load_stringf_for_cpg_after_edits(input_file):
